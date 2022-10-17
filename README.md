@@ -35,13 +35,7 @@ Here we can see that each mode shows different signal in Pacific (Nino 3.4 area)
 
 ### 4. Plot the percentage of variance exolained by the first 10 EOFs.
 
-```{figure} ../figures/HW04_4.png
----
-height: 150px
-name: percentage-variance
----
-The precentage variance by the first-10 EOFs
-```
+![HW04_4](../figures/HW04_4.png)
 
 From the percantage variance we know that the first EOF mode can explain more tahn 17.5% variance in the data. Then the precentage decrease along the number. 
 
@@ -49,25 +43,13 @@ From the percantage variance we know that the first EOF mode can explain more ta
 
 From problem #4 we know that the first-5 EOFs mode has larger precentage variance, so that for this problem we only use those modes to reconstruct the SST anomalies. 
 
-```{figure} ../figures/HW04_5.png
----
-height: 150px
-name: cor-map-sst-anomalies
----
-A map of Pearson Coefficient Correlation of recontructed and observed SST anomalies.
-```
+![HW04_5](../figures/HW04_5.png)
 
 We can see that the reconstructed SST anomalies with first-5 mode has strong correlation with the observed data. It has positive correlation with the central Nino3.4 hit > 0.9. We can say that the first-5 modes can explain the SST anomalies. 
 
 ### 6. Plot a map of recontructed SST anomalies with precipitation anomalies dataset. 
 
-```{figure} ../figures/HW04_6.png
----
-height: 150px
-name: cor-map-sst-anomalies-with-prec
----
-A map of Pearson Coefficient Correlation of recontructed SST anomalies and precipitation.
-```
+![HW04_6](../figures/HW04_6.png)
 
 The above figure shows us that reconstruced SST anomalies has a strong positive correlation with precipitation number in Pacific, especially Nino3.4 area. We can say that the SST and precipitation anomalies somewhat display the signal of ENSO in the area. 
 
