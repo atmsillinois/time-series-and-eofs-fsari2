@@ -11,7 +11,7 @@ There are 6 problems that need to be done to complete this module. The hints for
 
 ### 1. Create Dataset for monthly mean SST and Precipitation anomalies
 
-Here I used both sea surface temperature and precipitation dataset from RDA NCAR with code ds633.1. However, for the precipitation dataset, it is not direct acummulated precipiattion with milimiter (mm) units, it is the sum of large and convective precipitation flux. So, the unit is in kg m/$s^2$. 
+Here I used both sea surface temperature and precipitation dataset from RDA NCAR with code ds633.1. However, for the precipitation dataset, it is not direct acummulated precipiattion with milimiter (mm) units, it is the sum of large and convective precipitation flux. So, the unit is in kg m/s^2. 
 
 To get the anomalies, I simply subtstracted the monthly mean with its monthly mean average. Though the original data is in Kelvin unit, but after subtracting, we can also consider that the anomalies is in Celcius unit (there is no different on Kelvin and Celcius for value difference). After that I save those anomalies dataset on my local computer so that it will ease the next process as we do not need to access the dataset from the original website (which is sometimes not accessible due to maintainence issue).
 
