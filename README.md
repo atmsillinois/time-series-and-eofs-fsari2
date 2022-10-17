@@ -29,13 +29,7 @@ This problem is actually preparing us to calculate EOF component of our SST anom
 Here I aplied `eofs` package to answer the problem. Empirical Orthogonal Function (EOF) is a mathematical function defining the dominant modes by decomposing 3-dimensional dataset into spatial and time-series pattern. Though it is slightly different, we can also call EOF as Principal Componenet Analysis (PCA). For this problem I set the number of EOF mode 10, and then only plot the first-5 EOF modes as correlation to see the relationship between each mode to original SST anomalies dataset.
 
 
-```{figure} ../figures/HW04_3.png
----
-height: 150px
-name: first-5-eofs
----
-The first-5 EOFs mode in SST Anomalies (1979 - 2021)
-```
+![HW04_3](../figures/HW04_3.png)
 
 Here we can see that each mode shows different signal in Pacific (Nino 3.4 area). But, the first EOFs diplayed more clear signal of correlation than others. 
 
