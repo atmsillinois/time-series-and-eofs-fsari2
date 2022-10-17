@@ -29,13 +29,13 @@ This problem is actually preparing us to calculate EOF component of our SST anom
 Here I aplied `eofs` package to answer the problem. Empirical Orthogonal Function (EOF) is a mathematical function defining the dominant modes by decomposing 3-dimensional dataset into spatial and time-series pattern. Though it is slightly different, we can also call EOF as Principal Componenet Analysis (PCA). For this problem I set the number of EOF mode 10, and then only plot the first-5 EOF modes as correlation to see the relationship between each mode to original SST anomalies dataset.
 
 
-![HW04_3](../figures/HW04_3.png)
+![HW04_3](figures/HW04_3.png)
 
 Here we can see that each mode shows different signal in Pacific (Nino 3.4 area). But, the first EOFs diplayed more clear signal of correlation than others. 
 
 ### 4. Plot the percentage of variance exolained by the first 10 EOFs.
 
-![HW04_4](../figures/HW04_4.png)
+![HW04_4](figures/HW04_4.png)
 
 From the percantage variance we know that the first EOF mode can explain more tahn 17.5% variance in the data. Then the precentage decrease along the number. 
 
@@ -43,13 +43,13 @@ From the percantage variance we know that the first EOF mode can explain more ta
 
 From problem #4 we know that the first-5 EOFs mode has larger precentage variance, so that for this problem we only use those modes to reconstruct the SST anomalies. 
 
-![HW04_5](../figures/HW04_5.png)
+![HW04_5](figures/HW04_5.png)
 
 We can see that the reconstructed SST anomalies with first-5 mode has strong correlation with the observed data. It has positive correlation with the central Nino3.4 hit > 0.9. We can say that the first-5 modes can explain the SST anomalies. 
 
 ### 6. Plot a map of recontructed SST anomalies with precipitation anomalies dataset. 
 
-![HW04_6](../figures/HW04_6.png)
+![HW04_6](figures/HW04_6.png)
 
 The above figure shows us that reconstruced SST anomalies has a strong positive correlation with precipitation number in Pacific, especially Nino3.4 area. We can say that the SST and precipitation anomalies somewhat display the signal of ENSO in the area. 
 
